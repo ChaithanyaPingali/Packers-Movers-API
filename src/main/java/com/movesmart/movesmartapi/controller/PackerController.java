@@ -49,11 +49,11 @@ public class PackerController {
   public Packer updateUser(@PathVariable String id, @RequestBody Packer packer) {
     return packerRepository.findById(id)
         .map(u -> {
-          u.setEmail(packer.getEmail());
           u.setPhoneNo(packer.getPhoneNo());
           u.setName(packer.getName());
           u.setCity(packer.getCity());
           u.setState(packer.getState());
+          u.setEmail(packer.getEmail());
           return packerRepository.save(u);
         })
         .orElseThrow(() -> new EntityNotFoundException("Packer not found with id: " + id));
