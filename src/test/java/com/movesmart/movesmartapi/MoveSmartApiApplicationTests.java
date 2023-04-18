@@ -10,4 +10,9 @@ class MoveSmartApiApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void getUsersTest() {
+		
+	}
+
 }
