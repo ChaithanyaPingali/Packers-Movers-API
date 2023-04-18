@@ -28,11 +28,12 @@ public class Packer {
   public String name;
   @Column(name = "email")
   public String email;
+  @Column(name = "state")
+  public String state;
   @Column(name = "phone_no")
   public Long phoneNo;
   @Column(name = "city")
   public String city;
-  @Column(name = "state")
-  public String state;
+
 
 }
