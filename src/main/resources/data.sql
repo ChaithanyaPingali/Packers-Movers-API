@@ -1,5 +1,5 @@
 INSERT INTO PACKERS
-VALUES (UUID(), 'NRT', 'jayasri@gmail.com', 'Jaya Sri', 132784879, 'J&K');
+VALUES (UUID(), 'NRT', 'jayasri@gmail.com', 'Jaya Sri', 132784879, 'Kansa');
 INSERT INTO PACKERS
 VALUES (UUID(), 'SAP', 'jaya@gmail.com', 'Jaya', 98765234, 'New York');
 INSERT INTO PACKERS
