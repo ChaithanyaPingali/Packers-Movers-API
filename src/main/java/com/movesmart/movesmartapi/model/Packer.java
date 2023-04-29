@@ -1,11 +1,11 @@
 package com.movesmart.movesmartapi.model;
 
+import org.hibernate.annotations.GenericGenerator;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-import org.hibernate.annotations.GenericGenerator;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Builder;
