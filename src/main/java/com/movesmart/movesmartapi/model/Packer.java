@@ -1,15 +1,16 @@
 package com.movesmart.movesmartapi.model;
 
-import jakarta.persistence.Column;
+import org.hibernate.annotations.GenericGenerator;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
+import lombok.Builder;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.GenericGenerator;
+
 
 @Entity
 @Data
@@ -28,11 +29,12 @@ public class Packer {
   public String name;
   @Column(name = "email")
   public String email;
+  @Column(name = "state")
+  public String state;
   @Column(name = "phone_no")
   public Long phoneNo;
   @Column(name = "city")
   public String city;
-  @Column(name = "state")
-  public String state;
+
 
 }
